@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="BK Precision 9200 Voltage Control Test.vi" Type="VI" URL="../../../Quick Test VIs/BK Precision 9200 Voltage Control Test.vi"/>
+		<Item Name="BK Precision 9200 Voltage Control Test.vi" Type="VI" URL="../BK Precision 9200 Voltage Control Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -46,34 +46,34 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="BK Precision 9200 Series.lvlib" Type="Library" URL="/C/Users/jorosco/Downloads/bk_precision_9200_series/BK Precision 9200 Series/BK Precision 9200 Series.lvlib"/>
+			<Item Name="BK Precision 9200 Series.lvlib" Type="Library" URL="../../../../Downloads/bk_precision_9200_series/BK Precision 9200 Series/BK Precision 9200 Series.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="BK Precision 9200 Voltage Control Test" Type="EXE">
+			<Item Name="BK Precision 9200 Voltage Control Test v1.3" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{65C0B216-4C5E-4ECF-AC99-93D8D42E99D6}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{B0729283-21B9-414D-8DDE-EF8F197E5796}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C2A5DB14-6DD8-4FD3-8596-9D16446808F1}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{16C9F248-32D1-4480-BBC2-E132AA8472E2}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{5AEBB5D0-383A-4512-B7CE-BD7F72E54E74}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">BK Precision 9200 Voltage Control Test</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A67D5DE3-2E47-4DA0-80E9-49ACA9932B41}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BK Precision 9200 Voltage Control Test v1.3</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test v1.3</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{0A0AD6E6-5B8E-4290-94C3-88DDCA713A39}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{27E4DE17-67A1-400F-A07F-F8D65A5F2EB3}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">BK Precision Voltage Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test v1.3/BK Precision Voltage Control.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test v1.3/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1CCD1635-84DC-4F7F-8D8C-0B12C027A65F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F611FBA0-67A9-469D-95E7-23D0528102E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BK Precision 9200 Voltage Control Test.vi</Property>
@@ -81,12 +81,52 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Experior Laboratories</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">BK Precision 9200 Voltage Control Test</Property>
-				<Property Name="TgtF_internalName" Type="Str">BK Precision 9200 Voltage Control Test</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BK Precision 9200 Voltage Control Test v1.3</Property>
+				<Property Name="TgtF_internalName" Type="Str">BK Precision 9200 Voltage Control Test v1.3</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Experior Laboratories</Property>
-				<Property Name="TgtF_productName" Type="Str">BK Precision 9200 Voltage Control Test</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{7A149E6E-DE78-495D-8873-B78B885B395E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">BK Precision 9200 Voltage Control Test v1.3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DC90EC60-60AB-4F41-BDAB-F367D10D20C2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BK Precision Voltage Control.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BK Precision 9200 Voltage Control Test2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{10707B4F-C0B4-4A51-9B51-8B45F97F8078}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A1E8C694-A8FF-45A9-9B64-0110392ADE96}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{847AD8F1-15DE-4D7B-8049-56F69B3B4259}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BK Precision 9200 Voltage Control Test2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EAAD2526-09FF-4730-8CD9-F6252E7B2EDC}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">BK Precision 9200 Voltage Control Test.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test2/BK Precision 9200 Voltage Control Test.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/BK Precision 9200 Voltage Control Test2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F611FBA0-67A9-469D-95E7-23D0528102E8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BK Precision 9200 Voltage Control Test.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Experior Laboratories</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BK Precision 9200 Voltage Control Test2</Property>
+				<Property Name="TgtF_internalName" Type="Str">BK Precision 9200 Voltage Control Test2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Experior Laboratories</Property>
+				<Property Name="TgtF_productName" Type="Str">BK Precision 9200 Voltage Control Test2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{543666E7-79AD-4876-899F-6CECF9C29EA4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BK Precision 9200 Voltage Control Test.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
